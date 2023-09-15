@@ -26,4 +26,4 @@ $ pip install -r requirements.txt
 - @sajacaros
 
 ## addition
-* (readme 생성)[https://www.toptal.com/developers/gitignore/]
+* [readme 생성](https://www.toptal.com/developers/gitignore/)
