@@ -5,6 +5,7 @@
 ## Prerequisites
 - python==3.10
 - fastapi
+- jupyter
 
 ## How to start
 ```shell
