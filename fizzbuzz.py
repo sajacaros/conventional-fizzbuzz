@@ -8,13 +8,9 @@ def do_fizzbuzz(num):
     나머지 수자는 그대로 출력
     """
     for i in range(1, num+1):
-        if i%15 == 0:
-            print('fizzbuzz')
-        elif i%3 == 0:
-            print('fizz')
-        elif i%5 == 0:
-            print('buzz')
-        else: 
+        if i%3 == 0 or i%5 == 0:
+            print('fizz'*(i%3==0)+'buzz'*(i%5==0))
+        else:
             print(i)
 
 if __name__ == '__main__':
