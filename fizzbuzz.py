@@ -1,4 +1,4 @@
-def do_fizzbuzz():
+def do_fizzbuzz(num):
     """
     fizzbuzz 기능 수행
     정해진 숫자에 대해 
@@ -7,7 +7,7 @@ def do_fizzbuzz():
     15의 배수는 'fizzbuzz'
     나머지 수자는 그대로 출력
     """
-    for i in range(1, 20+1):
+    for i in range(1, num+1):
         if i%15 == 0:
             print('fizzbuzz')
         elif i%3 == 0:
@@ -18,4 +18,4 @@ def do_fizzbuzz():
             print(i)
 
 if __name__ == '__main__':
-    do_fizzbuzz()
+    do_fizzbuzz(16)
