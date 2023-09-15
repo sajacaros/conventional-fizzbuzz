@@ -1,7 +1,7 @@
 def do_fizzbuzz(num):
     """
     fizzbuzz 기능 수행
-    정해진 숫자에 대해 
+    정해진 숫자에 대해
     3의 배수는 'fizz'
     5의 배수는 'buzz'
     15의 배수는 'fizzbuzz'
